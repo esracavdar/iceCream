@@ -1,0 +1,403 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+body{
+  overflow-x: hidden !important;
+}
+.bolum1{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+#head{
+    background: url("images/ice-cream.jpg");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#head h1{
+    padding: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    list-style: none;
+    position: absolute;
+    letter-spacing: 2px;
+}
+#head h1 a{
+    color: white;
+    text-decoration: none;
+    transition: color .6s ease;
+}
+#head h1 a:hover{
+    color: black;
+}
+#head .menu ul{
+  
+    list-style: none;
+    float: right;
+}
+#head .menu ul li{
+    margin: 15px;
+    display: block;
+    float: left;
+    padding-top: 40px;
+}
+#head ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    font-weight: 400;
+    transition: color .6s ease;
+}
+#head ul li a:hover{
+    color: rgb(156, 13, 113);
+}
+
+#head ul li i{
+   color: white;
+   font-size: 20px;
+   margin-right: 15px;
+   margin-top: 3px;
+   transition: color .6s ease;
+   cursor: pointer;
+}
+#head ul li i:hover{
+    color: rgb(156, 13, 113);
+ }
+.content{
+    width: 100%;
+    position: absolute;
+    width: 50%;
+    height: 250px;
+    top: 35%;
+    right: -60px;
+    box-sizing: border-box;
+}
+.content h2{
+    color: white;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    font-size: 45px;
+}
+.content p{
+    color: white;
+    font-size: 18px;
+    width: 50%;
+    letter-spacing: 5px;
+    font-weight: 500;
+    line-height: 20px; 
+    margin-left: 5px;
+}
+.contactbtn{
+    background-color: #f26483;
+    padding: 10px 45px;
+    display: inline-block;
+    margin-top: 15px;
+    border: 1px solid #f26483;
+    
+}
+.contactbtn a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .8s ease;
+}
+.contactbtn:hover{
+    background-color: transparent;
+    color: #f26483;
+}
+#about{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+#about .yazi{
+    width: 100%;
+    height: auto;
+    color: black;
+    text-align: center;
+}
+.yazi h1{
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.yazi p{
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 18px;
+    width: 90%;
+    margin-left: 60px;
+}
+#about .resimler{
+    width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    margin-top: 50px;
+}
+.resimler .kutu{
+    width: 20%;
+    height: auto;
+    float: left;
+    padding-top: 20px;
+}
+.kutu .resim{
+    width: 100%;
+    height: auto;
+    background: transparent;
+    margin-left: 80px;
+    margin-right: 2px;
+}
+#about .resimler img{
+    width: 50%;
+    height: 300px;
+    display: block;
+}
+.aboutbtn{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #ff9e6a;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all .3s;
+    border: 1px solid #ff9e6a;
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.aboutbtn a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .8s ease;
+}
+.aboutbtn:hover{
+    background-color: #ce6228;;
+}
+#products{
+    width: 100%;
+    height: auto;
+    position: relative;
+    top: 50px;
+    float: left;
+}
+.kutular{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.resim img{
+    float: left;
+    width: 50%;
+    height: auto;
+}
+.yazi{
+    width: 50%;
+    float: left;
+    align-items: center;
+}
+.yazi h3{
+    margin-left: 60px;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 20%;
+}
+.yazi p{
+    color: #1f1f1f;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.btn1{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f26483;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all .3s;
+    border: 1px solid #f26483;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+.btn1 a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .8s ease;
+}
+.btn1:hover{
+    background-color: #f58ba2a9;
+}
+.resim2 img{
+    float: right;
+    width: 50%;
+    height: auto;
+    margin-top: 20px;
+}
+.kutular .yazi2{
+    width: 48%;
+    float: right;
+    align-items: center;
+}
+.kutular .yazi2 h3{
+    margin-left: 100px;
+    color: black;
+    font-size: 35px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    margin-top: 35%;
+}
+.kutular .yazi2 p{
+    margin-left: 100px;
+    margin-right: 50px;
+    color: #1f1f1f;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.btn2{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #ff9e6a;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all .3s;
+    border: 1px solid #ff9e6a;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+.btn2 a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .8s ease;
+}
+.btn2:hover{
+    background-color: #f3b290d7;
+}
+#contact{
+    width: 100%;
+    height: auto;
+}
+.solcnt{
+    margin-top: 25px;
+    float: left;
+    width: 50%;
+    height: auto;
+    background: #fcafc0;
+}
+.solcnt h1{
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white; 
+    margin-left: 40%;
+    margin-top: 40px;
+}
+.solcnt form{
+    width: 55%;
+    height: auto;
+    margin-left: 40%;
+    margin-top: 10px;
+}
+form input{
+    border-radius: 20px;
+    border: none;
+    padding-left: 15px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+form textarea{
+    width: 100%;
+    height: 100px;
+    padding: 25px;
+    font-size: 20px;
+}
+.solcnt .btn3{
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #f26483;
+    color: #ffffff;
+    border-radius: 0;
+    transition: all .3s;
+    border: 1px solid #f26483;
+    margin-top: 30px;
+}
+.btn3 a{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all .8s ease;
+}
+.btn3:hover{
+    background-color: transparent;
+}
+.sagcnt{
+    width: 50%;
+    height: auto;
+    float: right;
+}
+.sagcnt iframe{
+    width: 85%;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 15%;
+    margin-left: 30px;
+}
+.temizle{
+    clear: both;
+}
+#footer{
+    background: url("images/footer.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.ust{
+    width: 100%;
+    height: auto;
+    padding: 80px;
+}
+.ust i{
+    width: 50px;
+    height: 50px;
+    border: 2px solid #e67a91;
+    margin-right: 15px;
+    padding: 15px ;
+    color: #e67a91;
+    font-size: 16px;
+    margin-left: 210px;
+    cursor: pointer;
+}
+.ust span{
+    color: #e67a91;
+    margin-left: -5px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.ust i:hover{
+    color: #ff9e6a ;
+}
